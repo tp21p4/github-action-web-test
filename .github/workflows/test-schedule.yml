@@ -2,7 +2,7 @@ name: 웹에서 만든 주기적 실행 테스트
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # 5분마다 실행
+    - cron: '*/15 * * * *' # 5분마다 실행
   workflow_dispatch:      # 수동 실행 버튼 추가
 
 jobs:
